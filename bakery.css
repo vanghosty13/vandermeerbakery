@@ -1,0 +1,212 @@
+body
+{
+	background-color: #F0E090;
+	background-color: #F1E9A8;
+	padding: 0px;
+	margin: 0px;
+
+	background-image: url(bordertop.jpg);
+	background-repeat: repeat-x;
+}
+
+body,div
+{
+	font-family: sans-serif, Arial;
+	font-size: 13pt;
+}
+
+a
+{
+	color: #003399;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #0033FF;
+	text-decoration: underline;
+}
+
+.navbar
+{
+	text-align: left;
+	margin-bottom: 18px;
+}
+
+.navbar a
+{
+	font-weight: bold;
+	margin-right: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navbar a:hover
+{
+	color: #9999FF;
+	text-decoration: underline;
+}
+
+.columnleft
+{
+	padding: 12px;
+}
+
+.columnmain
+{
+	padding: 18px;
+}
+
+.adbar
+{
+	text-align: center;
+	background-color: #5F3620;
+	padding: 8px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.ghostbar
+{
+	padding: 18px;
+}
+.ghostbar img
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.pageindex
+{
+	padding: 18px;
+	background-color: #FFFFFF;
+	width: 640px;
+}
+
+.pageindex a
+{
+	display: block;
+	padding: 4px;
+	float: left;
+	width: 300px;
+}
+
+.commentbox, .form
+{
+	clear: both;
+	margin-top: 18px;
+ 	border-top: solid 1px #CC9933;
+	width: 640px;
+}
+
+.form3
+{
+	padding: 18px;
+	color: #FFFFF3;
+	background-color: #604020;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+.commentdate
+{
+	float: right;
+}
+
+.commentname
+{
+	font-weight: bold;
+}
+
+.commenttext
+{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.response
+{
+	clear: both;
+}
+
+.imagebox
+{
+	float: left;
+	padding: 12px;
+	background-color: #FFFFFF;
+	margin-bottom: 18px;
+	margin-right: 18px;
+}
+
+.imagebox IMG
+{
+}
+.imagetitle
+{
+	font-weight: bold;
+}
+
+.main
+{
+}
+
+.para
+{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 640px;
+	line-height: 16pt;
+}
+
+.title
+{
+	color: #512C00;
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: Georgia;
+	margin-bottom: 12px;
+}
+
+.heading
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.subheading
+{
+	font-size: 16px;
+}
+
+head
+{
+	display: none;
+}
+
+doc
+{
+	margin: 0px;
+	padding: 18px;
+	background-color: #FFFFFF;
+	width: 400px;
+}
+
+title
+{
+	font-size: 20pt;
+}
+
+para
+{
+	display: block;
+}
+
+figure
+{
+	float: right;
+}
+
+figure title
+{
+	font-size: 8pt;
+}
