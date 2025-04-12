@@ -1,0 +1,547 @@
+BODY
+{
+   background-color: #111111;
+   margin: 0px;
+   text-align: center;
+}
+
+.bloglinks a
+{
+   margin: 0px;
+   padding: 0px;
+}
+.bloglinks img
+{
+   border: none;
+   margin: 2px 8px;
+   padding: 0px;
+}
+.bloglinks .date
+{
+   font-size: 60%;
+}
+
+BODY,TH,TD
+{
+   font-family: Arial, sans-serif;
+   font-size: 12pt;
+   color: #ffffff;
+}
+
+A
+{
+   color: #ffaaaa;
+   text-decoration: none;
+}
+A:hover
+{
+   text-decoration: underline;
+}
+
+IMG   { border-color: #5C2D00; }
+
+H1,H2,H3,H4,H5
+{
+   font-family: Georgia, serif;
+   font-weight: bold;
+   color: #cccccc;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+H1    { font-size: 150%; }
+H2    { font-size: 140%; }
+H3    { font-size: 130%; }
+H4    { font-size: 120%; }
+H5    { font-size: 110%; }
+
+.contentwrapper
+{
+   position: relative; 
+   width: 900px;
+   text-align: center;
+   xpadding: 8px 0px;
+
+}
+
+.contentwrapper img
+{
+   border: solid 10px white;
+}
+
+
+.ghostwriter
+{
+   xwidth: 860px;
+   margin: 15px auto;
+   text-align: left;
+}
+
+.ghostwritereditor
+{
+   width: 740px;
+   width: 860px;
+   padding: 12px;
+   text-align: left;
+   background-color: #222222;
+   color: ffffff;
+   background-image: none;
+}
+
+.contentbox
+{
+   background-color: #F0F0F0;
+   padding: 18px;
+}
+
+.main
+{
+   width: 800px;
+   padding: 0px;
+   margin: 0px;
+   background-color: #FFFFFF;
+}
+
+.columnmenu
+{
+	padding-top: 200px;
+}
+
+.columnpage
+{
+	padding: 18px;
+}
+
+
+.browse_list_container
+{
+   width: 100%;
+}
+.browse_list_item img
+{
+	border: none;
+}
+.browse_list_item
+{
+   padding: 8px;
+   padding-bottom: 16px;
+   text-align: center;
+}
+
+
+
+.errormessage
+{
+   border: solid 1px #990000;
+   padding: 12px;
+   color: #990000;
+}
+
+.bulletarrow, .bulletarrowheading, .calendarlist #date
+{
+   background-image: url(https://chaosincolor.com/);
+   background-repeat: no-repeat;
+   background-position: 0 10px;
+   padding-left: 12px;
+}
+.bulletarrowheading, .calendarlist #date
+{
+   background-image: url(https://chaosincolor.com/);
+   background-position: 0 0px;
+   font-size: 18px;
+   font-weight: bold;
+   border-top: solid 1px #FFCC00;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 28px;
+}
+.bulletbelow
+{
+   padding-left: 12px;
+}
+
+.itemimgdesc
+{
+   border: solid 1px #FFCC99;
+   padding: 18px;
+}
+
+.van_blog_block
+{
+   border-bottom: solid 1px #666666;
+   clear: both;
+}
+.van_blog_block .date, .van_blog_page .date
+{
+   font-style: italic;
+   margin: 12px auto;
+}
+.van_blog_block .name a, .van_blog_page .name, .van_blog_block .more
+{
+   font-size: 120%;
+   font-weight: bold;
+}
+.van_blog_block .text
+{
+   margin: 18px 0px;
+}
+.van_blog_page .text img
+{
+}
+.van_blog_block .comments
+{
+   margin-top: 12px;
+   text-align: right;
+   clear: both;
+}
+.van_blog_block img
+{
+   float: left;
+   margin: 18px 18px 18px 0px;
+   border: solid 5px white;
+}
+.van_blog_block .nav
+{
+   font-variant: small-caps;
+   font-size: 70%;
+}
+.van_blog_block .nav a
+{
+   color: #666666;
+   margin-right: 12px;
+}
+
+.van_blog_page .comments
+{
+   clear: both;
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+.van_blog_page .comments .caption
+{
+   font-weight: bold;
+   color: white;
+}
+.van_blog_page .comments .block
+{
+   border: solid 1px #666666;
+   margin-top: 18px;
+}
+.van_blog_page .comments .block .caption
+{
+   background-color: #666666;
+   padding: 0 12px;
+   position: relative; 
+   font-size: 80%;
+}
+
+.van_blog_page .comments .block .caption .name
+{
+   font-weight: bold;
+}
+.van_blog_page .comments .block .caption .date
+{
+   position: absolute;
+   width: 820px;
+   top: 0;
+   left: 0;
+   text-align: right;
+   font-weight: normal;
+   margin: 0;
+}
+.van_blog_page .comments .block .text
+{
+
+   background-color: black;
+   padding: 12px; 
+}
+
+.van_blog_page .nav
+{
+   float: right;
+}
+.van_blog_page .nav a, .van_blog_page .nav span
+{
+   margin: auto 18px;
+}
+
+.van_blog_nav
+{
+   text-align: center;
+   padding: 18px;
+   clear: both;
+}
+.van_blog_nav a, .van_blog_nav span
+{
+   margin: auto 18px;
+}
+
+.van_blog_tag_links
+{
+   height: 200px;
+   overflow: hide;
+   margin-bottom: 10px;
+}
+
+.van_blog_tag_links a
+{
+   display: block;
+   float: left;
+   width: 200px;
+   margin-right: 5px;
+}
+
+.van_blog_tag_block
+{
+}
+
+.van_blog_tag_block img
+{
+   margin: 5px;
+   border: solid 5px white;
+}
+
+.van_blog_tag_block_title
+{
+   font-weight: bold;
+}
+
+.van_storefront_category_list
+{
+   margin-top: 18px;
+}
+.van_storefront_category_list .category
+{
+   border: solid 1px white;
+   height: 80px;
+   width: 270px;
+   float: left;
+   margin-right:12px;
+   margin-bottom:12px;
+}
+.van_storefront_category_list .category a
+{   
+}
+.van_storefront_category_list .category .name
+{   
+   width: 190px;
+   height: 80px;
+   display: block;
+   padding: 12px;
+}
+.van_storefront_category_list .category img
+{
+   display: inline;
+   float: left;
+   margin-right: 12px;
+   border-width: 0px;
+}
+
+/*
+.van_storefront_category_list .category
+{
+   width: 280px;
+   height: 140px;
+   text-align: center;
+   float: left;
+}
+.van_storefront_category_list .category a
+{
+   font-size: 80%;
+}
+.van_storefront_category_list .category img
+{
+   margin: 0 auto;
+   border: none;
+   display: block;
+}
+*/ 
+.van_storefront_item_list .item
+{
+   width: 270px;
+   height: 300px;
+   text-align: center;
+   float: left;
+   font-size: small;
+}
+
+.van_storefront_item_list .item a
+{
+   font-size: x-small;
+   display: block;
+   margin-right: 12px;
+}
+
+.van_storefront_item_list .item img
+{
+   border: none;
+   padding: 15px;
+   background-color: white;
+}
+.van_storefront_item_list .item .name
+{
+   display: block;
+   padding: 8px;
+}
+.van_storefront_item_list .item .desc
+{
+   display: block;
+}
+
+.van_storefront_item
+{
+   font-variant: small-caps;
+   font-size: 80%;
+   padding: 4px 0px;
+   float: left; 
+   width: 50%;
+}
+
+.van_storefront_item_search
+{
+   padding: 12px 0px;
+}
+
+.van_storefront_tagXXX
+{
+   font-variant: small-caps;
+   font-size: 80%;
+   padding: 4px 0px;
+   float: left; 
+   width: 25%;
+}
+
+.van_storefront_tag
+{
+   display: inline; 
+   padding: auto 12px;
+}
+
+.item_box
+{
+   1border: solid 1px #CCCCCC;
+   background-color: white;
+   padding: 12px;
+   text-align: center;
+}
+
+.van_pages_breadcrumb
+{
+   margin-bottom: 12px;
+   padding: 2px 4px;
+   background-color: #8a0000;
+   color: white;
+   text-align: center;
+   display: none;
+}
+.van_pages_breadcrumb a
+{
+   color: white;
+}
+
+.item_categories a
+{
+   padding: 0px 18px;
+   border-right: solid 1px #CCCCCC;
+}
+
+.calendarmonth
+{
+   width: 100%;
+   border-spacing: 3px;
+   margin-bottom: 18px;
+}
+.calendarday, .calendartoday
+{
+   background-color: #F6F6F6; 
+   padding: 5px;
+}
+.calendartoday
+{
+   border: solid 1px black;
+}
+.calendarnoday
+{
+}
+.calendarheadermonth
+{
+   font-style: italic;
+}
+.calendarheaderday
+{
+   font-size: 80%;
+}
+
+
+.menubox
+{
+   height: 28px;
+   color: #ffffff;
+   margin: 0px auto;
+   line-height: 28px;
+   background-color: #000000;
+}
+.menubox a
+{
+   xcolor: #ffffff;
+   margin-left: 24px;
+   Xfont-size: 16px;
+}
+.menubox a:hover
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+/* menu leval 1 ******************** */
+
+.menubox ul 
+{
+   list-style: none;
+   background: none;
+   padding: 0px;
+   margin: 0px;
+}
+.menubox ul li 
+{
+   float: left;
+   padding: 0px;
+   margin: 0px;
+}
+.menubox ul li a 
+{
+   display: block;
+   position: relative;
+}
+*html .menubox ul li a { float: left; }
+.menubox ul li:hover ul, .menubox ul li.sfhover ul 
+{
+   left: auto;
+}
+
+/* menu level 2 ******************** */
+
+.menubox ul li ul 
+{
+   position: absolute;
+   clear: both;
+   z-index: 100;
+   background-color: #333333;
+   left: -999em;
+   width: 240px;
+}
+.menubox ul li ul li 
+{
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   text-align: left;
+   border-top: solid 1px #666666;
+}
+.menubox ul li ul li a 
+{
+   display:block;
+   border-left:none;
+   border-right: none;
+   height:auto;
+}
+*html .menubox ul li ul li a { width:100%; }
